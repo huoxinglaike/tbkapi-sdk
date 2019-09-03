@@ -22,7 +22,7 @@ public class TaobaoUrlUlandRequest extends Request<TaobaoUrlUlandResponse> {
 
 	@Override
 	public String getApi() {
-		return "/api/tburl/uland";
+		return "/openapi/tburl/uland";
 	}
 
 	@Override

@@ -25,7 +25,7 @@ public class TaobaoPwdGenerateRequest extends Request<TaobaoPwdGenerateResponse>
 	
 	@Override
 	public String getApi() {
-		return "/api/pwd/generate";
+		return "/openapi/pwd/generate";
 	}
 	@Override
 	public Class<TaobaoPwdGenerateResponse> getResponseClass() {

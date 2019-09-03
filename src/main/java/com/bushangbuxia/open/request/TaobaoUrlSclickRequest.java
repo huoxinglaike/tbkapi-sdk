@@ -20,7 +20,7 @@ public class TaobaoUrlSclickRequest extends Request<TaobaoUrlSclickResponse> {
 
 	@Override
 	public String getApi() {
-		return "/api/tburl/sclick";
+		return "/openapi/tburl/sclick";
 	}
 
 	@Override

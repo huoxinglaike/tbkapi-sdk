@@ -21,7 +21,7 @@ public class Tests {
 
 	private final static String appKey = "328522874379964416";
 	private final static String appSecret = "rxLvOfOnlBeVrQB1mWjSYWQbgWwCAKJ2";
-	private final static String gatewayUrl = "http://www.mapprouter.com";
+	private final static String gatewayUrl = "https://www.mapprouter.com";
 	
 	private TbkApiClient newClient(){
 		return new DefaultTbkApiClient(appKey, appSecret, gatewayUrl);

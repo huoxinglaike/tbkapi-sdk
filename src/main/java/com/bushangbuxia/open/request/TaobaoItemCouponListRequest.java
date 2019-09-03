@@ -36,7 +36,7 @@ public class TaobaoItemCouponListRequest extends Request<TaobaoItemCouponListRes
 	
 	@Override
 	public String getApi() {
-		return "/api/item/coupon_list";
+		return "/openapi/item/coupon_list";
 	}
 
 	@Override

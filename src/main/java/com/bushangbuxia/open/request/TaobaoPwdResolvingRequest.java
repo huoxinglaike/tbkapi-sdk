@@ -24,7 +24,7 @@ public class TaobaoPwdResolvingRequest extends Request<TaobaoPwdResolvingRespons
 	
 	@Override
 	public String getApi() {
-		return "/api/pwd/resolving";
+		return "/openapi/pwd/resolving";
 	}
 
 	@Override

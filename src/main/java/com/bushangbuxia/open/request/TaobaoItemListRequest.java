@@ -36,7 +36,7 @@ public class TaobaoItemListRequest extends Request<TaobaoItemListResponse> {
 
 	@Override
 	public String getApi() {
-		return "/api/item/list";
+		return "/openapi/item/list";
 	}
 
 	@Override

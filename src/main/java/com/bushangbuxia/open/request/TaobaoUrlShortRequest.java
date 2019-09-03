@@ -23,7 +23,7 @@ public class TaobaoUrlShortRequest extends Request<TaobaoUrlShortResponse> {
 
 	@Override
 	public String getApi() {
-		return "/api/tburl/short";
+		return "/openapi/tburl/short";
 	}
 
 	@Override
